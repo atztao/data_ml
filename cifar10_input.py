@@ -344,8 +344,8 @@ def maybe_download_and_extract():
     :return:
         Nothing.
     """
-    url = DATA_URL
-    download_dir = "./data/CIFAR10/"
+    url = 'https://www.cs.toronto.edu/~kriz/cifar-10-binary.tar.gz'
+    download_dir = './data/CIFAR10/'
 
     # Filename for saving the file downloaded from the internet.
     # Use the filename from the URL and add it to the download_dir.
