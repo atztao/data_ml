@@ -24,7 +24,6 @@ import sys
 import urllib.request
 import tarfile
 import zipfile
-from dataset import one_hot_encoded
 
 from six.moves import xrange  # pylint: disable=redefined-builtin
 import tensorflow as tf
